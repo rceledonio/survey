@@ -1,0 +1,58 @@
+h1, h2, h3, h4, h5, h6, p, th, div, button, html, a {
+    font-family: 'Titillium Web';
+}
+p, th, td, div, a  {
+    font-size: 18px;
+    color: #333;
+}
+.bd-navbar {
+    min-height: 4rem;
+    box-shadow: 0 0.5rem 1rem rgba(0,0,0,.05), inset 0 -1px 0 rgba(0,0,0,.1);
+    margin-bottom: 4rem;
+}
+.form-control {
+    width: auto;
+}
+.form-check-input {
+    position: relative;
+}
+.my-align-items {
+    align-items: flex-start!important;
+}
+.my-align-text {
+    text-align: left;
+}
+@media only screen and (min-width: 768px) {
+    /* For desktop: */
+    .my-align-items {
+        align-items: flex-end!important;
+    }
+    .my-align-text {
+        text-align: end;
+    }
+}
+input > span {
+    padding-right: 20px !important;
+    color: aqua !important;
+}
+.input-group {
+    margin-bottom: .5rem;
+}
+.btn-location {
+    margin-top: -3px;
+}
+.inline-label{
+    display: inline-flex;
+}
+.main-btn-area {
+    background: hsl(0, 0%, 97%);
+    margin-top: 1.5rem;
+    padding: 10px;
+    text-align: center;
+}
+.zero-padding-left {
+    padding-left: 0;
+}
+.web-title > h5 {
+    color: #ccc;
+}

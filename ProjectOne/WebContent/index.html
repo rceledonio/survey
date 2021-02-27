@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">    
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <title>Student Survey Form</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- My custom styles -->
+  <link href="css/mainstyle.css" rel="stylesheet">
+</head>
+
+<body class="bg-light">
+
+<header class="navbar navbar-expand flex-column flex-md-row bd-navbar">
+  <div class="web-title">
+    <h5>Student Survey Form</h5>
+  </div>
+</header>
+
+<form action="./index.html">
+  <div class="row">
+    <div class="col-md-4 d-flex my-align-items flex-column">
+      <label>First Name:</label>
+    </div>
+    <div class="col-md-8 mb-3">
+      <input type="text" class="form-control" size="40" required>
+    </div>
+    <div class="col-md-4 d-flex my-align-items flex-column">
+      <label>Last Name:</label>
+    </div>
+    <div class="col-md-8 mb-3">
+      <input type="text" class="form-control" size="40" required>
+    </div>
+
+    <div class="col-md-4 d-flex my-align-items flex-column">
+      <label>Street Address:</label>
+    </div>
+    <div class="col-md-8 mb-3">
+      <input type="text" class="form-control" size="40" required>
+    </div>
+    <div class="col-md-4 d-flex my-align-items flex-column">
+      <label>City:</label>
+    </div>
+    <div class="col-md-8 mb-3">
+      <input type="text" class="form-control" size="40" required>
+    </div>
+    <div class="col-md-4 d-flex my-align-items flex-column">
+      <label>State:</label>
+    </div>
+    <div class="col-md-8 mb-3">
+      <input type="text" class="form-control" size="40" required>
+    </div>
+    <div class="col-md-4 d-flex my-align-items flex-column">
+      <label>Zip Code:</label>
+    </div>
+    <div class="col-md-8 mb-3">
+      <input type="text" class="form-control" size="10" maxlength="10" required>
+    </div>
+
+    <div class="col-md-4 d-flex my-align-items flex-column">
+      <label>Telephone Number:</label>
+    </div>
+    <div class="col-md-8 mb-3">
+      <input type="tel" class="form-control" size="14" maxlength="14" required>
+    </div>
+    <div class="col-md-4 d-flex my-align-items flex-column">
+      <label>Email:</label>
+    </div>
+    <div class="col-md-8 mb-3">
+      <input type="email" class="form-control" size="40" required>
+    </div>
+    <div class="col-md-4 d-flex my-align-items flex-column">
+      <label>Date of Survey:</label>
+    </div>
+    <div class="col-md-8 mb-3">
+      <input type="date" class="form-control email-auto" size="40" required>
+    </div>
+
+    <div class="col-md-4 d-flex my-align-text flex-column">
+      <label>What do you liked most about the campus?</label>
+    </div>
+    
+    <div class="col-md-8 mb-3">
+      <div class="form-check">
+        <input type="checkbox" id="checkboxStudent" class="form-check-input">
+        <label class="form-check-label" for="checkboxStudent">Students</label>
+      </div>
+      <div class="form-check">
+        <input type="checkbox" id="checkboxLocation" class="form-check-input">
+        <label class="form-check-label" for="checkboxLocation">Location</label>
+      </div>
+      <div class="form-check">
+        <input type="checkbox" id="checkboxCampus" class="form-check-input">
+        <label class="form-check-label" for="checkboxCampus">Campus</label>
+      </div>
+      <div class="form-check">
+        <input type="checkbox" id="checkboxAtmosphere" class="form-check-input">
+        <label class="form-check-label" for="checkboxAtmosphere">Atmosphere</label>
+      </div>
+      <div class="form-check">
+        <input type="checkbox" id="checkboxDormRooms" class="form-check-input">
+        <label class="form-check-label" for="checkboxDormRooms">Dorm Rooms</label>
+      </div>
+      <div class="form-check">
+        <input type="checkbox" id="checkboxSport" class="form-check-input">
+        <label class="form-check-label" for="checkboxSport">Sports</label>
+      </div>
+    </div>
+
+    <div class="col-md-4 d-flex my-align-text flex-column">
+      <label>How did you become interested in the university?</label>
+    </div>
+
+    <div class="col-md-8 mb-3">
+      <div class="form-check zero-padding-left">
+        <div>
+          <input type="radio" name="friends"><span> Friends</span>
+        </div>
+        <div>
+          <input type="radio" name="television"><span> Television</span>
+        </div>
+        <div>
+          <input type="radio" name="internet"><span> Internet</span>
+        </div>
+        <div>
+          <input type="radio" name="other"><span> Other</span>
+        </div>
+      </div>
+    </div>
+    
+    
+    <div class="col-md-4 d-flex my-align-text flex-column">
+      <label>What is the likelyhood that you will recommend this University?</label>
+    </div>
+    <div class="col-md-8 mb-3">
+      <select class="form-control">
+        <option value="Male">Very Likely</option>
+        <option value="Female">Likely</option>
+        <option value="Female">Unlikely</option>
+      </select>
+    </div>
+
+    <div class="col-md-4 d-flex my-align-items flex-column">
+      <label>Raffle:</label>
+    </div>
+    <div class="col-md-8 mb-3">
+      <input type="email" class="form-control email-auto" size="40">
+    </div>
+
+    <div class="col-md-4 d-flex my-align-items flex-column">
+      <label for="textareaAdditionalComments">Additional Comments:</label>
+    </div>
+    <div class="col-md-8 mb-3">
+      <textarea class="form-control" id="textareaAdditionalComments" cols="42"></textarea>
+    </div>
+
+    <div class="main-btn-area col-md-12 mb-3">
+      <input type="submit" value="Submit">
+      <input type="button" value="Cancel">
+    </div>
+  </div>
+</form>
+
+</body></html>
